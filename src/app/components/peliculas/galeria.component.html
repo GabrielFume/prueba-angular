@@ -1,0 +1,116 @@
+<h1>{{ titulo }}</h1>
+
+<hr>
+
+<div class="row" *ngIf="peliculas">
+	
+	<div class="col-md-6" >
+		<div class="row no-gutters">
+	        <div class="col-md-4" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[0] | peliculaImagen ) + ')' }">
+	          
+	        </div>
+	        <div class="col-md-8">
+	          <div class="card-body">
+	            <h5 class="card-title">{{peliculas[0].title}}</h5>
+	            <p class="card-text">{{peliculas[0].overview}}</p>
+	            <p class="card-text"><small class="text-muted">{{peliculas[0].release_date}}</small></p>
+	            <img alt="" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[0] | peliculaImagen ) + ')' }">
+	          </div>
+	        </div>
+	      </div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="row no-gutters">
+	        <div class="col-md-4" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[1] | peliculaImagen ) + ')' }">
+	          
+	        </div>
+	        <div class="col-md-8">
+	          <div class="card-body">
+	            <h5 class="card-title">{{peliculas[1].title}}</h5>
+	            <p class="card-text">{{peliculas[1].overview}}</p>
+	            <p class="card-text"><small class="text-muted">{{peliculas[1].release_date}}</small></p>
+	            <img alt="" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[1] | peliculaImagen ) + ')' }">
+	          </div>
+	        </div>
+	      </div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="row no-gutters">
+	        <div class="col-md-4" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[2] | peliculaImagen ) + ')' }">
+	          
+	        </div>
+	        <div class="col-md-8">
+	          <div class="card-body">
+	            <h5 class="card-title">{{peliculas[2].title}}</h5>
+	            <p class="card-text">{{peliculas[2].overview}}</p>
+	            <p class="card-text"><small class="text-muted">{{peliculas[2].release_date}}</small></p>
+	            <img alt="" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[2] | peliculaImagen ) + ')' }">
+	          </div>
+	        </div>
+	      </div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="row no-gutters">
+	        <div class="col-md-4" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[3] | peliculaImagen ) + ')' }">
+	          
+	        </div>
+	        <div class="col-md-8">
+	          <div class="card-body">
+	            <h5 class="card-title">{{peliculas[3].title}}</h5>
+	            <p class="card-text">{{peliculas[3].overview}}</p>
+	            <p class="card-text"><small class="text-muted">{{peliculas[3].release_date}}</small></p>
+	            <img alt="" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[3] | peliculaImagen ) + ')' }">
+	          </div>
+	        </div>
+	      </div>
+	</div>
+
+
+	<div class="col-md-6">
+		<div class="row no-gutters">
+	        <div class="col-md-4" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[4] | peliculaImagen ) + ')' }">
+	          
+	        </div>
+	        <div class="col-md-8">
+	          <div class="card-body">
+	            <h5 class="card-title">{{peliculas[4].title}}</h5>
+	            <p class="card-text">{{peliculas[4].overview}}</p>
+	            <p class="card-text"><small class="text-muted">{{peliculas[4].release_date}}</small></p>
+	            <img alt="" style=" height: 469px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[4] | peliculaImagen ) + ')' }">
+	          </div>
+	        </div>
+	      </div>
+	</div>
+
+	<div class="col-md-6">
+		<div class="row no-gutters">
+	        <div class="col-md-4" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[5] | peliculaImagen ) + ')' }">
+	          
+	        </div>
+	        <div class="col-md-8">
+	          <div class="card-body">
+	            <h5 class="card-title">{{peliculas[5].title}}</h5>
+	            <p class="card-text">{{peliculas[5].overview}}</p>
+	            <p class="card-text"><small class="text-muted">{{peliculas[5].release_date}}</small></p>
+	            <img alt="" style=" height: 269px;
+	    background-size: cover;" [ngStyle]="{ 'background-image': 'url( '+ ( peliculas[5] | peliculaImagen ) + ')' }">
+	          </div>
+	        </div>
+	      </div>
+	</div>
+
+</div>
